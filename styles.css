@@ -1,3 +1,4 @@
+
 *{
 padding: 0%;
 margin: 0%;
@@ -53,3 +54,36 @@ transition: 2s;
     font-family: "Gravitas One", serif;
     font-style: normal;
   }
+=======
+.copyright-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .copyright-text {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    animation: slide-in 2s ease-out, fade-in 2s ease-out;
+  }
+  
+  @keyframes slide-in {
+    from {
+      transform: translateY(100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
