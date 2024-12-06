@@ -1,1 +1,55 @@
+*{
+padding: 0%;
+margin: 0%;
+}
+body{
+    background-color: blanchedalmond;
+    text-align: center;
+    font-family: "Gravitas One", serif;
+}
+h2{
+    color: rgb(101, 48, 10);
+    transition: 2s;
+    position: relative;
+    text-align: center;
 
+}
+h2:hover{
+    color: rgb(233, 233, 171);
+    background-color: rgb(105, 50, 10);
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: auto;
+}
+
+.images-left{
+    width: 200px;
+    height: 200px;
+    margin: 40px 40px;
+    cursor: pointer;
+    transition: 2s;
+    display: flex;
+   
+    padding: 50px;
+}
+.images-left:hover{
+transform: scale(1.1);
+transition: 2s;
+}
+.images-right{
+    width: 200px;
+    height: 200px;
+    margin: 40px 40px;
+    cursor: pointer;
+    transition: 2s;
+    display: flex;
+    padding: 50px;
+}
+.images-right:hover{
+    transform: scale(1.1);
+transition: 2s;
+}
+.gravitas{
+    font-family: "Gravitas One", serif;
+    font-style: normal;
+  }
